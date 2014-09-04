@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'pages/about'
+
+  get 'pages/contact'
+
+root :to => redirect('/pages/about')
   resources :ads
 
   # The priority is based upon order of creation: first created -> highest priority.
