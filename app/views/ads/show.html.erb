@@ -12,7 +12,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @ad.picture %>
+  <%= image_tag(@ad.picture_url, :width => 600) if @ad.picture.present? %>
 </p>
 
 <p>
