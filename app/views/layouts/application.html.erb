@@ -1,46 +1,121 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sentral Marketplace</title>
-  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sentral Marketplace</title>
+    <meta name="description" content="Rent a car in Ooty via NRN Cabs. You can travel from Coimbatore to Ooty. We provide the best and reliable service in the region">
+
+    <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Sentral</a>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="http://nrncabs.info/images/logo.png" width="300"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right yanone">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/ads">Browse Ads</a></li>
-		<li class="active"><a href="/pages/contact">Contact Us</a></li>
-      </ul>
+    <div class="jumbotron"><center>
+        <h1 class="yanone">Rent a Car in Akasia</h1>
+        <p class="arvo">Akasia Travels provides Cheap Long-Term Car Rentals to Professionals, Foreign Travelers and Students in the KL, Areas. We have been in the car rental business for over ten (10) years. Focusing on Weekly and Monthly Rentals</p>
+        <a class="btn btn-lg btn-success" href="#" role="button">Contact Now</a></center>
+    </div>
+      
+    <div id="about">
+        <div class="container">
+           <h2>About us</h2>
+            <p>Akasia Travels rent a car provides low-cost long automobile Rentals to Professionals, Foreign Travelers and Students within the KL area. we've been with the rent-a-car business for over 10 years. specializing in Weekly and Monthly Rentals, Super low-cost is in a position to undercut the competition </p>
+
+            <p>We're a family owned and operated business that prides itself on giving you the TOTAL price up-front. We don't charge usual hidden charges. Call now to avoid dissapointments. We are the number one travels to provide car rental services in KL</p>
+        </div>
+    </div>
+      
+  <div id="contact">
+    <div class="container">
+        <h2>Contact us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Call Now</h3>
+                <p>9865333686 </p>
+                <p>OR </p>
+                <p>9629664620</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Address</h3>
+                <p>Lot 777, <br/>
+                Setapak, <br/>
+                KL</p>
+            </div>
+        </div>
     </div>
   </div>
-</nav>
-<div class="container-fluid">
-<div class="container">
-  <%= yield %>
+  
+  <div id="maps"><center>
+    <div class="container">
+      
+<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3984.597800653139!2d101.67063399999999!3d2.9313340000000037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x31cdb65c9aeab095%3A0xdec81475d35993fc!2sUkhoowah+Printing+Solution%2C+No+1+Kiosk+Putrajaya+Sentral%2C+Presint+7%2C+62250+Presint+7+Putrajaya%2C+Putrajaya!3m2!1d2.9313339999999997!2d101.67063399999999!5e0!3m2!1sen!2smy!4v1410076456443" width="999" height="450" frameborder="0" style="border:0"></iframe>
+
 </div>
+</center>
 </div>
-<footer>
-  <div class="container">
-  <right>
-    Made with love from Putrajaya | Nixx Soft 2014
-	</right>
-  </div>
-</footer>
-<script src="//railsgirls.com/assets/bootstrap.js"></script>
-</body>
+
+<div id="social">
+    <div class="container">
+        <h2>Social Media</h2>
+        <a href="https://www.facebook.com/"><img src="http://nrncabs.info/images/fb.png"></a>
+        <a href="https://twitter.com/"><img src="http://nrncabs.info/images/twitter.png"></a>
+        <a href="https://plus.google.com/"><img src="http://nrncabs.info/images/google.png"></a>
+        
+    </div>
+</div> 
+
+    <footer>
+        <div class="container">
+          Web Desinged by <a href="http://line.com">Nixx Soft</a>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50250180-2', 'nrncabs.info');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+    
 </html>
